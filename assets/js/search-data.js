@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-revisiting-bryan-kelly-39-s-garch-model",
+        
+          title: "Revisiting Bryan Kelly&#39;s GARCH Model",
+        
+        description: "In this post I revisit some of volatility modeling with GARCH to not forget the theory and coding associated with it. In particular I will be looking at a GARCH model and in the future revisit the DCC GARCH model.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/revisiting-ML/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -435,12 +446,7 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
+      },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
@@ -496,40 +502,24 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-merger-arbitrage-amp-valuation",
+          title: 'Merger arbitrage &amp;amp; Valuation',
+          description: "Insights, tools, and findings from my research assistantship with Prof. Theis Jensen (Yale School of Management),  focused on valuation techniques in M&amp;A—ranging from peer group construction to large-scale data extraction from SEC filings.  The project combines empirical finance, machine learning, and scalable Python infrastructure to improve how firms are valued in practice.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/research-assistant/";
             },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%66%72%65%64%65%72%69%6B%63%69%75%70%65%6B@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://www.linkedin.com/in/frederik-ciupek", "_blank");
         },
       },{
       id: 'light-theme',
