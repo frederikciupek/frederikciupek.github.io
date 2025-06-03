@@ -39,30 +39,47 @@
       "url": "https://www.deloitte.com/de/de/services/consulting/services/japanese-services-group.html",
       "startDate": "2024-05-01",
       "endDate": "2024-07-01",
-      "summary": "Part of the globally active Japanese Service Group (JSG), I worked with the German team based in Düsseldorf to oversee (mostly) Japanese companies entering the German market by setting up subsidiaries or acquiring existing ones. My responsibilities included coordinating cross-border tax and legal advisory services, facilitating communication between Japanese clients and German stakeholders, and ensuring smooth integration into the local regulatory and business environment. This role required a strong understanding of both Japanese corporate culture and German regulatory frameworks, as well as close collaboration with multidisciplinary teams across both countries.",
+      "summary": "Part of the globally active Japanese Service Group (JSG), I worked with the German team based in Duesseldorf to oversee Japanese companies entering the German market by setting up subsidiaries or acquiring existing ones (inbound). My responsibilities included coordinating cross-border tax and legal advisory services, facilitating communication between Japanese clients and German stakeholders, and ensuring smooth integration into the local regulatory and business environment. This role required a strong understanding of both Japanese corporate culture and German regulatory frameworks, as well as close collaboration with multidisciplinary teams across both countries.",
       "highlights": ["Optimized tax efficiency, reducing transfer pricing-related tax burdens for Japanese firms acquiring German subsidiaries, supporting RFP documentation, M&A tax due diligence, and post-merger integrations.",
       	"Led a cross‑functional team of five to architect and deploy multilingual (DE, EN, JP) email, social and webinar campaigns using HubSpot - driving a 300% surge in target‑account engagement over three months."]
     },
     {
-      "name": "MERCER | HKP/// GROUP	Frankfurt, Germany",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "MERCER | HKP/// GROUP Frankfurt, Germany",
+      "position": "Executive Compensation Consulting Intern",
+      "url": "https://www.mercer.com/de-de/solutions/corporate-governance/",
+      "startDate": "2024-01-01",
+      "endDate": "2024-04-30",
+      "summary": "Interning in the Corporate Governance Adivosry, focusing on Executive Compensation Consulting, I supported the team in analyzing and benchmarking executive compensation packages for DAX, MDAX and SDAX clients across various industries in the DACH region..",
+      "highlights": ["Advised DAX, MDAX, and SDAX  institutional clients (board of directors) on corporate governance, providing recommendations for board size, compensation schemes (long & short-term incentives), and KPI management by comparing complex compensation systems against industry benchmarks, saving one client over €1M.",
+      "Engineered Python scripts to parse and validate four years of proxy reports for 160 German public firms (DAX, MDAX, SDAX) and created an interactive excel dashboard - streamlining data cleaning by 40% and delivering actionable governance insights for the 2024 ECBE Corporate Governance study saving 80 hours of manual work."]
+    },
+    {
+      "name": "QUONIAM ASSET MANAGEMENT GMBH",
+      "position": "Fixed Income Quantitative Research Intern",
+      "url": "https://www.quoniam.com/en/",
+      "startDate": "2023-09-01",
+      "endDate": "2023-12-31",
+      "summary": "Quoniam Asset Management GmbH is a Frankfurt-based quantitative asset manager specializing in systematic fixed-income strategies, being the second biggest quantiative fixed income fund in Europe. I contributed to the running multi-factor fixed income signal by integrating local vs. FX-hedged returns and analyzed bond trading data.",
+      "highlights": [
+        "Designed and backtested a novel fixed-income momentum spillover factor in Python—integrating local vs. FX-hedged returns and sourcing data (e.g., Ravenpack)—which reduced maximum drawdowns in a multifactor strategy by 10%.",
+        "Leveraged Python, SQL, and Bloomberg to analyze TRACE bond-trading data, proposed a new relative liquidity metric that expanded the liquid universe by 13% for investment-grade and high-yield bonds in EUR and USD.",
+        "Enhanced five internal Python libraries with additional FX parameterization to account for specific FX effects; built and maintained scripts for client-pitch presentation materials, reducing prep time by 5 hours per pitch."
+      ]
     }
+    
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Coach for High School Students",
+      "location": "Berlin, Geramny",
+      "position": "Volunteer Coach",
+      "url": "https://frederikciupek.github.io/people/",
+      "startDate": "2025-03-01",
+      "endDate": "Ongoing",
+      "summary": "Having received a standard public education in Germany and by luck more than anything else attending an Ivy League school without any guidance or mentorship, I am passionate about giving back to the community and helping high school / college students in Germany prepare for their future, showing them opportunities that they had maybe not known about. .",
+      "highlights": ["Organized and led an informational session in collaboration with the Hedge Fund Club at the University of Mannheim, offering guidance on breaking into the quantitative finance industry. Covered key topics including required technical skills, industry expectations, and effective networking strategies.",
+    "Collaboration with my high school Japanese teacher, delivering a session on career opportunities in Japan. Shared insights from two years of study at Waseda University—Japan’s top university - and experiences attending multiple Japanese career fairs, providing students with practical advice on navigating education and work prospects in Japan."
+      ]
     }
   ],
   "education": [
@@ -101,6 +118,25 @@
       "Advanced Japanese Studies"
 
     ]
+    },
+    {
+      "institution": "Waseda University",
+      "location": "Tokyo, Japan",
+      "url": "https://www.waseda.jp/top/en",
+      "area": "Commerce / Economics",
+      "studyType": "Exchange Program",
+      "startDate": "2022-09-01",
+      "endDate": "2023-02-12",
+      "score": "A+ (Japanese Grade",
+      "courses": [
+        "Comprehensive Japanese 6 (Highest Level)",
+        "Innovation for the New World Order: Winning Strategies for Asia?",
+        "International Business Law",
+        "Financial Institutions and Markets",
+        "Financial Economics",
+        "Introduction to Data Science",
+        "Japanese Business History"
+      ]
     }
   ],
   "awards": [
