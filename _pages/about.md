@@ -2,16 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Bridging alternative data.</a> and real-world finance to decode market behavior.
+
+
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>66 Warren Street, unit 2</p>
+    <p>New Haven, CT 06511 </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +28,17 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello world. I am a native German finance enthusiast and creative problem solver with a strong passion for leveraging alternative data to drive innovation across finance, economics, and business.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My professional interests center on public equity and debt markets, shaped by hands-on experience from diverse roles: as a quantitative researcher at a German hedge fund, a compensation consultant advising executive boards of major German corporations, and an international tax professional at Deloitte, where I provided tax liability due diligence for mergers involving Japanese companies in Germany.
+This multidisciplinary background has provided me with a unique perspective on how multinational companies operate and how strategic decisions are made at the executive level.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Academically, I am interested in the empirical analysis of alternative data and its role in shaping market behavior. I explore how non-traditional data sources - such as product reviews - can provide early signals of company performance, investor sentiment, and macroeconomic trends. I also am interested in how current industry standards, such as peer groups that are so common in mergers or valuations for multiples, can be enhanced with a more sophisticated quantitative approach. In particular my recent research reflects this focus and includes:
+
+•	The impact of Amazon review data on stock performance in Japan and the US
+
+•	The reliability of M&A peer groups and the misvaluation of trading multiples
+
+•	A defensive portfolio strategies using factor models and optimization techniques implementing the theoretical knowledge I have acquired at Yale
+
+You can find a detailed breakdown of these projects in my project section.
