@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Bridging alternative data.</a> and real-world finance to decode market behavior.
+subtitle: <a href='#'>Bridging alternative data</a> and real-world finance to decode market behavior.
 
 
 

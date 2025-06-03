@@ -24,7 +24,27 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
+      "name": "YALE SCHOOL OF MANAGEMENT",
+      "position": "Research Assistant Merger Arbitrage & Empirical Asset Pricing",
+      "url": "https://som.yale.edu/faculty-research/faculty-directory/theis-ingerslev-jensen",
+      "startDate": "2024-11-15",
+      "endDate": "2025-05-19",
+      "summary": "Together with Porfessor Theis Jensen I am working on a research project that investigates the impact of M&A peer group selection on the reliability of multiples in valuation. The project aims to develop a comprehensive framework for evaluating M&A peer groups and their influence on valuation accuracy. ",
+      "highlights": ["Engineered a scalable Python ETL pipeline leveraging BeautifulSoup and OpenAI’s Batch API to extract, normalize, and standardize data from 40,000+ SEC M&A filings - culminating in a comprehensive multiples benchmark to rigorously evaluate ML model performance.", 
+          "Using Manhattan distance enhanced relative valuation accuracy by ~ 20% through a comparative analysis of four industry lassification systems in Python, optimizing firm valuation using inter- and intra-industry multiples (EV/EBIT, EV/SALES, P/B, P/E) reporting findings in weekly team meetings"] 
+    },
+    {
+      "name": "DELOITTE GERMANY JAPANESE SERVICES GROUP (JSG)",
+      "position": "International Business Tax Intern",
+      "url": "https://www.deloitte.com/de/de/services/consulting/services/japanese-services-group.html",
+      "startDate": "2024-05-01",
+      "endDate": "2024-07-01",
+      "summary": "Part of the globally active Japanese Service Group (JSG), I worked with the German team based in Düsseldorf to oversee (mostly) Japanese companies entering the German market by setting up subsidiaries or acquiring existing ones. My responsibilities included coordinating cross-border tax and legal advisory services, facilitating communication between Japanese clients and German stakeholders, and ensuring smooth integration into the local regulatory and business environment. This role required a strong understanding of both Japanese corporate culture and German regulatory frameworks, as well as close collaboration with multidisciplinary teams across both countries.",
+      "highlights": ["Optimized tax efficiency, reducing transfer pricing-related tax burdens for Japanese firms acquiring German subsidiaries, supporting RFP documentation, M&A tax due diligence, and post-merger integrations.",
+      	"Led a cross‑functional team of five to architect and deploy multilingual (DE, EN, JP) email, social and webinar campaigns using HubSpot - driving a 300% surge in target‑account engagement over three months."]
+    },
+    {
+      "name": "MERCER | HKP/// GROUP	Frankfurt, Germany",
       "position": "Professor of Theoretical Physics",
       "url": "https://example.com",
       "startDate": "1933-01-01",

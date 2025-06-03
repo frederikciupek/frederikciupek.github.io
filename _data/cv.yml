@@ -1,17 +1,17 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
+    - name: Full 
+      value: Frederik Kilian Ciupek
     - name: Date of Birth
-      value: 14th March 1879
+      value: Sep 2001
     - name: Languages
-      value: English, German
+      value: English, German, Japanese, 
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: Master
       institution: University of Zurich, Zurich, Switzerland
       year: 1905
       description:
