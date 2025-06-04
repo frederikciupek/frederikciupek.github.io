@@ -58,9 +58,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-labour-market-weakening",
+            },{id: "post-ada-employment-report-points-to-strongly-weakening-labour-market",
         
-          title: "Labour market weakening",
+          title: "ADA Employment Report points to strongly weakening Labour market",
         
         description: "Slowest job growth in over two years in May 2025 contrasting other indications of a robust job market. Are we going to see a rate cut any time soon?",
         section: "Posts",
@@ -117,6 +117,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
+            },},{id: "projects-fed-funds-rate-cut-probability-estimation",
+          title: 'Fed Funds Rate Cut Probability Estimation',
+          description: "Code implementation to estimate the probabilities of Fed rate cuts at upcoming FOMC meetings using EFFR futures data in Python, replicating the CME FedWatch Tool and comparing results to official CME data.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fedwatch/";
             },},{id: "projects-imc-prosperity-algo-trading-competition-journey",
           title: 'IMC Prosperity Algo-Trading Competition Journey',
           description: "A round-by-round breakdown of our team’s participation in the IMC Prosperity algorithmic trading competition, including the evolving marketplace rules, algorithmic strategy adaptations, and performance trajectory.",
