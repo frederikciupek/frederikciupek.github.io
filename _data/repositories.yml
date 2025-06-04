@@ -4,10 +4,9 @@ github_users:
 repo_description_lines_max: 3
 
 github_repos:
+  - frederikciupek/economic-statistics
   - frederikciupek/imc_trading_isle_of_punt
   - frederikciupek/frederikciupek.github.io
-  - frederikciupek/awesome-quant
-
   # - jekyll/jekyll
   # - twbs/bootstrap
   # - jquery/jquery
