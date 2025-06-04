@@ -9,7 +9,7 @@ last_name: Ciupek
 contact_note: >
   The best way to reach me is via email!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal website of Frederik K. Ciupek and central hub for research, projects, and blog posts.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -88,7 +88,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 
 blog_name: Fred-for-thought # blog_name will be displayed in your blog page
-blog_description: My blog where I write down my thoughts on current events, investing, and other topics of interest. Mostly here for myself to keep a record of what I have been thinking over time, but 
+blog_description: My blog where I write down my thoughts on current events, investing, and other topics of interest. Mostly here for myself to keep a record of what I have been thinking and learning. 
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 # Pagination
@@ -257,16 +257,16 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["finance","economics","Japanese Markets"] # these tags will be displayed on the front page of your blog
+display_categories: ["economics, quant-finance"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Ciupek]
+  first_name: [Frederik K.]
 
   style: apa
   locale: en
