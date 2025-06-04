@@ -25,7 +25,7 @@ announcements:
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit:  # leave blank to include all the blog posts
 ---
 
 Hello world. I am a native German finance enthusiast and creative problem solver with a strong passion for leveraging alternative data to drive innovation across finance, economics, and business.

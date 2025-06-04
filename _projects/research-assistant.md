@@ -5,7 +5,6 @@ description: >
   Insights, tools, and findings from my research assistantship with Prof. Theis Jensen (Yale School of Management), 
   focused on valuation techniques in M&A—ranging from peer group construction to large-scale data extraction from SEC filings. 
   The project combines empirical finance, machine learning, and scalable Python infrastructure to improve how firms are valued in practice.
-
 img: assets/img/m&a.jpg
 importance: 1
 category: work
