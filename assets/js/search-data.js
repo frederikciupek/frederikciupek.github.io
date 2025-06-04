@@ -44,20 +44,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "People",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
@@ -105,18 +91,27 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+      },{id: "books-when-genius-failed",
+          title: 'When Genius Failed',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "Books",handler: () => {
+              window.location.href = "/books/when_geniuses_failed/";
+            },},{id: "news-i-graduated",
+          title: 'I graduated!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-looking-for-a-job-is-actually-not-fun-at-all",
+          title: 'Looking for a job is actually not fun at all',
           description: "",
-          section: "News",},{id: "projects-merger-arbitrage-amp-valuation",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_1/";
+            },},{id: "projects-imc-prosperity-algo-trading-competition-journey",
+          title: 'IMC Prosperity Algo-Trading Competition Journey',
+          description: "A round-by-round breakdown of our team’s participation in the IMC Prosperity algorithmic trading competition, including the evolving marketplace rules, algorithmic strategy adaptations, and performance trajectory.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/imc-trading/";
+            },},{id: "projects-merger-arbitrage-amp-valuation",
           title: 'Merger arbitrage &amp;amp; Valuation',
           description: "Insights, tools, and findings from my research assistantship with Prof. Theis Jensen (Yale School of Management),  focused on valuation techniques in M&amp;A—ranging from peer group construction to large-scale data extraction from SEC filings.  The project combines empirical finance, machine learning, and scalable Python infrastructure to improve how firms are valued in practice.",
           section: "Projects",handler: () => {
