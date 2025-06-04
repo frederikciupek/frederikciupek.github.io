@@ -30,7 +30,7 @@
       "startDate": "2024-11-15",
       "endDate": "2025-05-19",
       "summary": "Together with Porfessor Theis Jensen I am working on a research project that investigates the impact of M&A peer group selection on the reliability of multiples in valuation. The project aims to develop a comprehensive framework for evaluating M&A peer groups and their influence on valuation accuracy. ",
-      "highlights": ["Engineered a scalable Python ETL pipeline leveraging BeautifulSoup and OpenAI’s Batch API to extract, normalize, and standardize data from 40,000+ SEC M&A filings - culminating in a comprehensive multiples benchmark to rigorously evaluate ML model performance.", 
+      "highlights": ["Engineered a scalable Python ETL pipeline leveraging BeautifulSoup and OpenAI’s Batch API to extract, normalize, and standardize data from 10,000+ SEC M&A filings - culminating in a comprehensive multiples benchmark to rigorously evaluate ML model performance.", 
           "Using Manhattan distance enhanced relative valuation accuracy by ~ 20% through a comparative analysis of four industry lassification systems in Python, optimizing firm valuation using inter- and intra-industry multiples (EV/EBIT, EV/SALES, P/B, P/E) reporting findings in weekly team meetings"] 
     },
     {
@@ -76,7 +76,7 @@
       "url": "https://frederikciupek.github.io/people/",
       "startDate": "2025-03-01",
       "endDate": "Ongoing",
-      "summary": "Having received a standard public education in Germany and by luck more than anything else attending an Ivy League school without any guidance or mentorship, I am passionate about giving back to the community and helping high school / college students in Germany prepare for their future, showing them opportunities that they had maybe not known about. .",
+      "summary": "Having received a standard public education in Germany and by luck more than anything else attending an Ivy League school without any guidance or mentorship, I am passionate about giving back to the community and helping high school / college students in Germany prepare for their future, showing them opportunities that they had maybe not known about.",
       "highlights": ["Organized and led an informational session in collaboration with the Hedge Fund Club at the University of Mannheim, offering guidance on breaking into the quantitative finance industry. Covered key topics including required technical skills, industry expectations, and effective networking strategies.",
     "Collaboration with my high school Japanese teacher, delivering a session on career opportunities in Japan. Shared insights from two years of study at Waseda University—Japan’s top university - and experiences attending multiple Japanese career fairs, providing students with practical advice on navigating education and work prospects in Japan."
       ]
@@ -141,92 +141,131 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Promos Scholarship for Academic Excellence",
+      "date": "2023",
+      "awarder": "German Academic Exchange Service (DAAD)",
+      "url": "https://www.daad.de/en/",
+      "summary": "Awarded the Promos Scholarship for Academic Excellence by the German Academic Exchange Service (DAAD) for outstanding academic performance during the exchange program at Waseda University in Tokyo, Japan."
+    },
+    {
+      "title": "Annual KPG Tax Quiz (2022)",
+      "date": "2022",
+      "awarder": "5th place",
+      "url": "",
+      "summary": "Awarded the 5th place in the Annual KPG Tax Quiz, a University of Mannheim compeititon for 2nd year Business Administration students organized by KPMG Germany, which tests knowledge of tax law and regulations for income tax."
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Finance Accelerator",
+      "date": "Jul 2024",
+      "issuer": "AmplifyME",
+      "url": "https://amplifyme.com/finance-accelerator",
+      "icon": "",
+      "skills": ["Asset Management", "Trading", "Risk Management"]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Japanese-Language Proficiency Test N1",
+      "date": "Jul 2024",
+      "issuer": "JLPT - Japanese Language Proficiency Test",
+      "url": "https://www.jlpt.jp/sp/e/about/levelsummary.html",
+      "icon": "",
+      "skills": ["Japanese Language Proficiency", "Japanese Culture"]
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "Python Fundamentals",
+      "date": "Jul 2024",
+      "issuer": "DataCamp",
+      "url": "",
+      "icon": "",
+      "skills": ["Python (Programming Language)", "Data Analysis"]
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "name": "Statistics Fundamentals with Python",
+      "date": "Jul 2024",
+      "issuer": "DataCamp",
+      "url": "",
+      "icon": "",
+      "skills": ["Python (Programming Language)", "Data Analysis", "Statistics"]
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "name": "Time Series with Python",
+      "date": "Jul 2024",
+      "issuer": "DataCamp",
+      "url": "",
+      "icon": "",
+      "skills": ["Time Series Analysis", "Machine Learning", "Python (Programming Language)"]
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "TOEFL iBT 120/120",
+      "date": "Jan 2022",
+      "issuer": "ETS",
+      "url": "https://www.ets.org/toefl.html",
+      "icon": "",
+      "skills": []
     }
+
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "The Impact of Amazon Reviews on Stock Performance",
+      "publisher": "Unpublished Bachelor’s thesis, University of Mannheim , Germany",
+      "releaseDate": "2023-06-30",
+      "url": "https://frederikciupek.github.io/assets/pdf/Thesis_Frederik_Ciupek.pdf",
+      "summary": "This thesis investigates how abnormal customer ratings from Amazon reviews predict stock returns—demonstrating that U.S. firms with higher-than-expected review scores earn significant abnormal returns (especially pre-2015) and that this effect diminishes as online review data become more pervasive, with a supplemental case study of Japanese Amazon reviews supporting similar conclusions"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Finance",
+      "level": "Advanced",
+      "icon": "fa-solid fa-chart-line",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Asset Management",
+        "Quantitative Investing",
+        "Fixed Income Strategies",
+        "Portfolio Optimization",
+        "Risk Management",
+        "Behavioral Finance",
+        "Empirical Asset Pricing"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "Data Analysis",
+        "Time Series Analysis",
+        "ETL Pipelines",
+        "Bloomberg Terminal"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "Expert",
+      "icon": "fa-solid fa-language",
+      "keywords": [
+        "German (Native)",
+        "English (Fluent)",
+        "Japanese (Proficient)"
+      ]
+    },
+    {
+      "name": "Business",
+      "level": "Advanced",
+      "icon": "fa-solid fa-briefcase",
+      "keywords": [
+        "Corporate Finance",
+        "Strategic Management",
+        "Marketing",
+        "Organizational Behavior",
+        "Business Law",
+        "Managerial Accounting",
+        "Financial Accounting"
       ]
     }
   ],
@@ -238,44 +277,118 @@
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Fluent (Native Proficiency)",
+      "icon": ""
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Full Working Proficiency",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Public Markets & Economics",
+      "icon": "fa-solid fa-chart-line",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Stock Markets",
+        "Market Trends",
+        "Economic Analysis",
+        "Trading Strategies",
+        "Bond Trading",
+        "Interest Rates",
+        "Yield Curves Analysis"
+      ]
+    },
+    {
+      "name": "Weightlifting",
+      "icon": "fa-solid fa-dumbbell",
+      "keywords": [
+        "Strength Training",
+        "Powerlifting",
+        "Bodybuilding",
+        "Nutrition"
+      ]
+    },
+    {
+      "name": "Coffee",
+      "icon": "fa-solid fa-mug-hot",
+      "keywords": [
+        "Coffee History",
+        "Brewing Techniques",
+        "Specialty Coffee",
+        "Pour Overs"
+      ]
+    },
+    {
+      "name": "Sailing",
+      "icon": "fa-solid fa-anchor",
+      "keywords": [
+        "Navigation",
+        "Knots"
+      ]
+    },
+    {
+      "name": "Large Language Models",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Artificial Intelligence",
+        "Limits to AI",
+        "Natural Language Processing",
+        "Machine Learning",
+        "Generative AI"
+      ]
+    },
+    {
+      "name": "Japan",
+      "icon": "fa-solid fa-mountain",
+      "keywords": [
+        "Japanese Culture",
+        "Japanese Language",
+        "Travel in Japan",
+        "Japanese History"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Theis Jensen, ",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Professor Theis Jensen has been my mentor and supervisor at Yale School of Management, guiding my research in empirical asset pricing and M&A peer group analysis. His expertise in quantitative finance has been invaluable to my academic and professional development."
     },
     {
-      "name": "Professor John Doe",
+      "name": "Assistant Professor Jiri Tresl, PhD (Mannheim University)",
+      "icon": "fa-solid fa-graduation-cap",
+      "reference": "Assistant Professor Jiri Tresl has been instrumental in my academic journey, providing mentorship and guidance during my studies at Mannheim University where I worked as his Teaching Assistant conducting. His support is the only reason why I am where I am today and I am grateful for his guidance and support throughout my academic journey."
+    },
+    {
+      "name": "Iris Mönnich (Partner, Deloitte JSG)",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Iris Mönnich, a Partner at Deloitte's Japanese Services Group, has been a key mentor during my internship. Her expertise in international business tax and her guidance on cross-border transactions have significantly enhanced my understanding of the complexities involved in advising Japanese companies entering the German market."
+    },
+    {
+      "name": "Dr. Lars Rickenberg (Quantiative Researcher, Quoniam Asset Management)",
+      "icon": "fa-solid fa-briefcase",
+      "reference": "Dr. Lars Rickenberg, a Quantitative Researcher at Quoniam Asset Management, has been a mentor during my internship in the fixed income group. His expertise in fixed-income strategies and quantitative research has greatly influenced my understanding of systematic investment approaches and the integration of data analysis in asset management."
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Amazon Review Data and Stock Performance",
+      "summary": "This project investigates the relationship between Amazon review data and stock performance, analyzing how sentiment changes and volume of reviews can serve as indicators for stock price movements. The goal is to develop a predictive model that leverages alternative data to enhance investment strategies.",
+      "highlights": ["FamaMcBeth Regression to reveal the source of the impact of Amazon review data on stock performance, showing that they can be used as a proxy / predictor of Earnings growth."],
+      "startDate": "2024-10-01",
+      "endDate": "Ongoing",
+      "url": "https://frederikciupek.github.io/projects/amazon/"
+    },
+    {
+      "name": "M&A Peer Group Reliability in Valuation",
+      "summary": "This project focuses on the reliability of M&A peer groups in valuation, analyzing how different peer group selection methods impact the accuracy of multiples used in M&A transactions. I focused mostly on the data gathering process.",
+      "highlights": ["Using the sum of absolute rank differences method over five fundamental variables we can reduce valuation error of industry peer groups by up to 40%.",
+          "Utilizing LLMs and BeautifulSoup to extract and normalize selected company peer group valuation multiple data from 10,000+ SEC M&A filings, creating a comprehensive database of multiples to compare against our model."],
+      "startDate": "2024-11-01",
+      "endDate": "Ongoing",
+      "url": "https://frederikciupek.github.io/projects/research-assistant/"
     }
   ]
 }

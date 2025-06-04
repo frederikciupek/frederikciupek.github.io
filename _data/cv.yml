@@ -1,97 +1,364 @@
 - title: General Information
   type: map
   contents:
-    - name: Full 
-      value: Frederik Kilian Ciupek
-    - name: Date of Birth
-      value: Sep 2001
-    - name: Languages
-      value: English, German, Japanese, 
+    - name: Full Name
+      value: Frederik Ciupek
+    - name: Label
+      value: Asset Management
+    - name: Email
+      value: frederik.ciupek@yale.edu
+    - name: Phone
+      value: (203) 503-4945
+    - name: GitHub
+      value: https://github.com/frederikciupek
+    - name: Summary
+      value: >-
+        I am a native German finance enthusiast and creative problem solver who is
+        passionate about leveraging alternative data to drive innovation in finance,
+        economics, and business. Recent research interests include the impact of Amazon
+        review data on stock performance, reliability of M&A peer groups and multiple
+        misvaluation, as well as defensive portfolio strategies using factors and optimization.
+    - name: Location
+      value: 66 Warren St, unit 2, New Haven, CT 06511, US
 
 - title: Education
   type: time_table
   contents:
-    - title: Master
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master, Financial Mathematics (Asset Management) - STEM Designation
+      institution: Yale School of Management, New Haven, USA
+      year: 2024 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - High Honors
+        - Courses:
+          - Asset Pricing Theory
+          - Behavioral Finance
+          - Quantitative Investing
+          - Fixed Income Strategies
+          - Macroeconomic Strategies
+          - Fixed Income Securities – Bonds, Swaps, and Derivatives
+          - Portfolio Management in Practice
+          - Machine Learning & Financial Econometrics
+          - Large Language Models: Technology and Applications
+          - Data Analysis and Causal Inference
+    - title: Bachelor of Science in Business Administration
+      institution: Mannheim University, Mannheim, Germany
+      year: 2020 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - GPA: 1.4 (German Grade)
+        - Courses:
+          - Microeconomics
+          - Investments and Asset Pricing
+          - Corporate Finance and Risk Management
+          - Introduction to Macroeconomics
+          - Financial Accounting
+          - Managerial Accounting
+          - Business Law
+          - Civil Law
+          - Organizational Behavior
+          - Marketing Management
+          - Strategic & International Management
+          - Advanced Japanese Studies
+    - title: Exchange Program, Commerce / Economics
+      institution: Waseda University, Tokyo, Japan
+      year: 2022 - 2023
+      description:
+        - A+ (Japanese Grade)
+        - Courses:
+          - Comprehensive Japanese 6 (Highest Level)
+          - Innovation for the New World Order: Winning Strategies for Asia?
+          - International Business Law
+          - Financial Institutions and Markets
+          - Financial Economics
+          - Introduction to Data Science
+          - Japanese Business History
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant, Merger Arbitrage & Empirical Asset Pricing
+      institution: Yale School of Management
+      year: 2024-11-15 - 2025-05-19
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Together with Professor Theis Jensen, worked on a research project investigating
+          the impact of M&A peer group selection on the reliability of multiples in valuation.
+        - Developed a comprehensive framework for evaluating M&A peer groups and their
+          influence on valuation accuracy.
+        - Engineered a scalable Python ETL pipeline leveraging BeautifulSoup and OpenAI’s
+          Batch API to extract, normalize, and standardize data from 10,000+ SEC M&A filings,
+          culminating in a comprehensive multiples benchmark to rigorously evaluate ML model performance.
+        - Used Manhattan distance to enhance relative valuation accuracy by ~20% through
+          comparative analysis of four industry classification systems in Python,
+          optimizing firm valuation using inter- and intra-industry multiples (EV/EBIT,
+          EV/SALES, P/B, P/E) and reported findings in weekly team meetings.
+    - title: International Business Tax Intern
+      institution: Deloitte Germany Japanese Services Group (JSG)
+      year: 2024-05-01 - 2024-07-01
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Part of the globally active Japanese Service Group (JSG), collaborated with the
+          German team in Düsseldorf to oversee Japanese companies entering the German market
+          by setting up subsidiaries or acquiring existing ones. Coordinated cross-border tax
+          and legal advisory services, facilitating communication between Japanese clients
+          and German stakeholders, ensuring smooth integration into local regulatory and
+          business environments.
+        - Optimized tax efficiency, reducing transfer pricing–related tax burdens for Japanese
+          firms acquiring German subsidiaries. Supported RFP documentation, M&A tax due diligence,
+          and post-merger integrations.
+        - Led a cross-functional team of five to architect and deploy multilingual (DE, EN, JP)
+          email, social, and webinar campaigns using HubSpot—driving a 300% surge in target-account
+          engagement over three months.
+    - title: Executive Compensation Consulting Intern
+      institution: Mercer | HKP/// Group, Frankfurt, Germany
+      year: 2024-01-01 - 2024-04-30
       description:
+        - Interned in Corporate Governance Advisory, focusing on Executive Compensation Consulting.
+          Supported the team in analyzing and benchmarking executive compensation packages for
+          DAX, MDAX, and SDAX clients across various industries in the DACH region.
+        - Advised boards of directors on corporate governance, board size, compensation schemes
+          (long & short-term incentives), and KPI management by comparing complex compensation
+          systems against industry benchmarks—saving one client over €1M.
+        - Engineered Python scripts to parse and validate four years of proxy reports for 160
+          German public firms (DAX, MDAX, SDAX) and created an interactive Excel dashboard,
+          streamlining data cleaning by 40% and delivering actionable governance insights for
+          the 2024 ECBE Corporate Governance study—saving 80 hours of manual work.
+    - title: Fixed Income Quantitative Research Intern
+      institution: Quoniam Asset Management GmbH, Frankfurt, Germany
+      year: 2023-09-01 - 2023-12-31
+      description:
+        - Quoniam Asset Management GmbH is a Frankfurt-based quantitative asset manager specializing
+          in systematic fixed-income strategies, and is the second-largest quantitative fixed-income
+          fund in Europe.
+        - Contributed to the running multi-factor fixed-income signal by integrating local vs.
+          FX-hedged returns and analyzing bond-trading data.
+        - Designed and backtested a novel fixed-income momentum spillover factor in Python—integrating
+          local vs. FX-hedged returns and sourcing data (e.g., Ravenpack)—which reduced maximum drawdowns
+          in a multifactor strategy by 10%.
+        - Leveraged Python, SQL, and Bloomberg to analyze TRACE bond-trading data, proposed a new relative
+          liquidity metric that expanded the liquid universe by 13% for investment-grade and high-yield
+          bonds in EUR and USD.
+        - Enhanced five internal Python libraries with additional FX parameterization to account for specific
+          FX effects; built and maintained scripts for client-pitch presentation materials, reducing prep
+          time by 5 hours per pitch.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Volunteer Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Volunteer Coach for High School Students
+      institution: Coach for High School Students, Berlin, Germany
+      year: 2025-03-01 - Ongoing
+      description:
+        - Having received a standard public education in Germany and, by luck more than anything else,
+          attending an Ivy League school without any guidance or mentorship, I am passionate about giving
+          back to the community and helping high school/college students in Germany prepare for their future
+          by showing them opportunities they might not have known about.
+        - Organized and led an informational session in collaboration with the Hedge Fund Club at the
+          University of Mannheim, offering guidance on breaking into the quantitative finance industry.
+          Covered key topics including required technical skills, industry expectations, and effective networking strategies.
+        - Collaborated with my high school Japanese teacher to deliver a session on career opportunities in
+          Japan. Shared insights from two years of study at Waseda University—Japan’s top university—and
+          experiences attending multiple Japanese career fairs, providing students with practical advice
+          on navigating education and work prospects in Japan.
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: Amazon Review Data and Stock Performance
+      year: 2024-10-01 - Ongoing
+      summary: >-
+        This project investigates the relationship between Amazon review data and stock performance,
+        analyzing how sentiment changes and volume of reviews can serve as indicators for stock price
+        movements. The goal is to develop a predictive model that leverages alternative data to enhance
+        investment strategies.
+      highlights:
+        - Fama–MacBeth regression revealed that Amazon review data can serve as a proxy/predictor of
+          earnings growth, improving predictive accuracy.
+      url: https://frederikciupek.github.io/projects/amazon/
+    - title: M&A Peer Group Reliability in Valuation
+      year: 2024-11-01 - Ongoing
+      summary: >-
+        This project focuses on the reliability of M&A peer groups in valuation, analyzing how different
+        peer group selection methods impact the accuracy of multiples used in M&A transactions. Emphasis
+        placed on the data gathering process.
+      highlights:
+        - Using the sum of absolute rank differences method over five fundamental variables reduced valuation
+          error of industry peer groups by up to 40%.
+        - Utilized LLMs and BeautifulSoup to extract and normalize selected company peer group valuation multiple
+          data from 10,000+ SEC M&A filings, creating a comprehensive database of multiples for model comparison.
+      url: https://frederikciupek.github.io/projects/research-assistant/
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Promos Scholarship for Academic Excellence (German Academic Exchange Service – DAAD)
+    - year: 2022
       items:
-        - Max Planck Medal
+        - 5th place, Annual KPG Tax Quiz (University of Mannheim, organized by KPMG Germany)
 
-- title: Academic Interests
+- title: Certificates
+  type: time_table
+  contents:
+    - title: Finance Accelerator
+      issuer: AmplifyME
+      date: Jul 2024
+      url: https://amplifyme.com/finance-accelerator
+      icon: ""
+      skills:
+        - Asset Management
+        - Trading
+        - Risk Management
+    - title: Japanese-Language Proficiency Test N1
+      issuer: JLPT - Japanese Language Proficiency Test
+      date: Jul 2024
+      url: https://www.jlpt.jp/sp/e/about/levelsummary.html
+      icon: ""
+      skills:
+        - Japanese Language Proficiency
+        - Japanese Culture
+    - title: Python Fundamentals
+      issuer: DataCamp
+      date: Jul 2024
+      url: ""
+      icon: ""
+      skills:
+        - Python (Programming Language)
+        - Data Analysis
+    - title: Statistics Fundamentals with Python
+      issuer: DataCamp
+      date: Jul 2024
+      url: ""
+      icon: ""
+      skills:
+        - Python (Programming Language)
+        - Data Analysis
+        - Statistics
+    - title: Time Series with Python
+      issuer: DataCamp
+      date: Jul 2024
+      url: ""
+      icon: ""
+      skills:
+        - Time Series Analysis
+        - Machine Learning
+        - Python (Programming Language)
+    - title: TOEFL iBT 120/120
+      issuer: ETS
+      date: Jan 2022
+      url: https://www.ets.org/toefl.html
+      icon: ""
+      skills: []
+
+
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Finance
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Asset Management
+        - Quantitative Investing
+        - Fixed Income Strategies
+        - Portfolio Optimization
+        - Risk Management
+        - Behavioral Finance
+        - Empirical Asset Pricing
+    - title: Programming
       items:
-        - Description 1.
-        - Description 2.
+        - Python
+        - SQL
+        - Machine Learning
+        - Data Analysis
+        - Time Series Analysis
+        - ETL Pipelines
+        - Bloomberg Terminal
+    - title: Languages
+      items:
+        - German (Native)
+        - English (Fluent)
+        - Japanese (Proficient)
+    - title: Business
+      items:
+        - Corporate Finance
+        - Strategic Management
+        - Marketing
+        - Organizational Behavior
+        - Business Law
+        - Managerial Accounting
+        - Financial Accounting
 
-- title: Other Interests
+- title: Languages
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - German (Native speaker)
+    - English (Fluent)
+    - Japanese (Full Working Proficiency)
+
+- title: Interests
+  type: nested_list
+  contents:
+    - title: Public Markets & Economics
+      items:
+        - Stock Markets
+        - Market Trends
+        - Economic Analysis
+        - Trading Strategies
+        - Bond Trading
+        - Interest Rates
+        - Yield Curve Analysis
+    - title: Weightlifting
+      items:
+        - Strength Training
+        - Powerlifting
+        - Bodybuilding
+        - Nutrition
+    - title: Coffee
+      items:
+        - Coffee History
+        - Brewing Techniques
+        - Specialty Coffee
+        - Pour Overs
+    - title: Sailing
+      items:
+        - Navigation
+        - Knots
+    - title: Large Language Models
+      items:
+        - Artificial Intelligence
+        - Limits to AI
+        - Natural Language Processing
+        - Generative AI
+    - title: Japan
+      items:
+        - Japanese Culture
+        - Japanese Language
+        - Travel in Japan
+        - Japanese History
+
+- title: References
+  type: time_table
+  contents:
+    - title: Professor Theis Jensen
+      icon: fa-solid fa-laptop
+      reference: >-
+        Professor Theis Jensen has been my mentor and supervisor at Yale School of Management, guiding
+        my research in empirical asset pricing and M&A peer group analysis. His expertise in quantitative
+        finance has been invaluable to my academic and professional development.
+    - title: Assistant Professor Jiri Tresl, PhD (Mannheim University)
+      icon: fa-solid fa-graduation-cap
+      reference: >-
+        Assistant Professor Jiri Tresl has been instrumental in my academic journey, providing mentorship
+        and guidance during my studies at Mannheim University where I worked as his Teaching Assistant.
+        His support is the only reason why I am where I am today, and I am grateful for his guidance and
+        support throughout my academic journey.
+    - title: Iris Mönnich (Partner, Deloitte JSG)
+      icon: fa-solid fa-thumbtack
+      reference: >-
+        Iris Mönnich, a Partner at Deloitte's Japanese Services Group, has been a key mentor during my
+        internship. Her expertise in international business tax and her guidance on cross-border transactions
+        have significantly enhanced my understanding of the complexities involved in advising Japanese companies
+        entering the German market.
+    - title: Dr. Lars Rickenberg (Quantitative Researcher, Quoniam Asset Management)
+      icon: fa-solid fa-briefcase
+      reference: >-
+        Dr. Lars Rickenberg, a Quantitative Researcher at Quoniam Asset Management, has been a mentor during
+        my internship in the fixed income group. His expertise in fixed-income strategies and quantitative research
+        has greatly influenced my understanding of systematic investment approaches and the integration of data analysis in asset management.
