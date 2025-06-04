@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-revisiting-bryan-kelly-39-s-garch-model",
+            },{id: "post-labour-market-weakening",
+        
+          title: "Labour market weakening",
+        
+        description: "Slowest job growth in over two years in May 2025 contrasting other indications of a robust job market. Are we going to see a rate cut any time soon?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/labour-market-weakning/";
+          
+        },
+      },{id: "post-revisiting-bryan-kelly-39-s-garch-model",
         
           title: "Revisiting Bryan Kelly&#39;s GARCH Model",
         
