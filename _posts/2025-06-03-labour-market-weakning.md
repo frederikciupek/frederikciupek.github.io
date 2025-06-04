@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Labour market weakening
+title: ADA Employment Report points to strongly weakening Labour market 
 date: 2025-06-04 15:09:00
 description: Slowest job growth in over two years in May 2025 contrasting other indications of a robust job market. Are we going to see a rate cut any time soon?
 tags: [labour market, interest rates]
@@ -17,33 +17,45 @@ The Job data released on June 4th 2025shows that just <a href="https://www.wsj.c
     This figure highlights the ADP National Employment report for May 2025, showcasing the significant drop in job creation compared to April and the weakest in more than two years.
 </div>
 
-This severely undershot expectations of 110,000 new jobs for May. The ADP National Employment Report, jointly developed with the Stanford Digital Economy Lab, has been published ahead of the more comprehensive report due Friday the 6th of June by the Labor Department's Bureau of Labor Statistics. Reuters claims that these reports are uncorrelated. Government data released June 3rd showed that Job openings increased to 191,000 to 7.391 million and Layoffs jump 196,000 - the biggest rise in nine months. Hiring only rises to 169,000
+This severely undershot expectations of 110,000 new jobs for May. The ADP National Employment Report, jointly developed with the Stanford Digital Economy Lab, has been published ahead of the more comprehensive report due Friday the 6th of June by the Labor Department's Bureau of Labor Statistics. Reuters claims that these reports are uncorrelated. Government data released for April showed that Job openings increased to 191,000 to 7.391 million and Layoffs jump 196,000 - the biggest rise in nine months but still remain low despite market uncertainty and there were 1.03 job openings for every unemployed person. Hiring only rises to 169,000. People quitting their jobs shown in orange in the interactive graph below declined by the most since last November declining by 4.5% (November 2024 5%). The measure of people quitting their job is a proxy for consumer and labor market confidence.
+
+This newest ADA data thus is supporting the understanding of ebbing confidence in the labor market.
+
+<div class="row">
+    <div class="col-sm mt-4">
+        <iframe 
+            src="/assets/html/jolts.html" 
+            width="120%" 
+            height="700" 
+            frameborder="0" 
+            loading="lazy">
+        </iframe>
+    </div>
+</div>
+<div class="caption">
+    Interactive chart comparing Job Openings & Hire and Quits & Layoffs/Discharges
+</div>
+
+<div class="row">
+    <div class="col-sm mt-4"> 
+        <iframe 
+            src="/assets/html/jolts_percentage_change.html" 
+            width="120%" 
+            height="700" 
+            frameborder="0" 
+            loading="lazy">
+        </iframe>
+    </div>
+</div>
+<div class="caption">
+    Interactive chart comparing Job Openings & Hire and Quits & Layoffs/Discharges in % changes
+</div>
 
 
+ The market rose higher between 0.2% and 0.3% and the 10-year TY fell from 4.46% to 4.38% (2% change) as the market is pricing in interest rate cuts in the future. I am very excited for this Friday's nonfarm job report numbers since I believe the 37,000 to be a bit low. But I do believe there is going to be a negative surprise.
+
+ To see exactly how much the market is pricing in rate cuts this year we can have a closer look at the  <a href="https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html">probabilities assigned to rate cuts by the market</a>. The the next FOMC meeting 13 days away (June 18th) the market is pricing in a 4% probability of a 25bps rate cut in June.  
+ 
+ You can also check out my <a href="https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"> github repository </a> or my writeup on my <a href="frederikciupek.github.io/projects/fedwatch"> website </a>  for a full replication of this method for June (although my results are not the exact same which I am going to troubleshoot).
 
 
- The market rose higher between 0.2% and 0.3% and the 10-year TY fell from 4.46% to 4.38% as the market is pricing in interest rate cuts in the future. The dollar is close to a multi-year low.
-### Why Expectations of Falling Interest Rates Impact the US Dollar and 10-Year Yields
-
-When the market anticipates future interest rate cuts, it affects both the US dollar and 10-year Treasury yields due to the following reasons:
-
-#### 1. Impact on the US Dollar
-Interest rates directly influence the attractiveness of a currency. Higher interest rates typically lead to higher returns for investors holding assets denominated in that currency, increasing demand for the currency and strengthening it. Conversely, when interest rates are expected to fall:
-- **Lower returns**: Investors anticipate lower yields on US-denominated assets, reducing demand for the US dollar.
-- **Capital outflows**: Investors may shift their capital to countries with higher expected returns, further weakening the dollar.
-
-#### 2. Impact on 10-Year Treasury Yields
-Treasury yields are inversely related to bond prices. When interest rates are expected to decrease:
-- **Higher bond demand**: Investors buy bonds in anticipation of lower future rates, driving up bond prices.
-- **Lower yields**: As bond prices rise, yields fall since yield is calculated as the bond's coupon payment divided by its price.
-
-#### Mathematical Relationship
-The relationship can be expressed as:
-- **Yield formula**: \( \text{Yield} = \frac{\text{Coupon Payment}}{\text{Bond Price}} \)
-- As bond prices increase due to higher demand, yields decrease.
-
-For the US dollar:
-- **Exchange rate dynamics**: \( \text{USD Demand} \propto \text{Interest Rate Differential} \)
-- Lower interest rates reduce the differential, weakening the dollar.
-
-These dynamics explain why expectations of falling interest rates lead to a weaker US dollar and lower 10-year Treasury yields.
