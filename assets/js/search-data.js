@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-ada-employment-report-points-to-strongly-weakening-labour-market",
+            },{id: "post-may-2025-non-farm-payrolls-stronger-hiring-boosts-cash-flow-expectations-despite-lower-rate-cut-odds",
+        
+          title: "May 2025 Non‐Farm Payrolls - Stronger Hiring Boosts Cash Flow Expectations Despite Lower...",
+        
+        description: "U.S. hiring added 139,000 jobs in May—beating forecasts—keeping rate‐cut odds lower, yet stocks are climbing as cash‐flow forecasts get a lift that outweighs a slightly higher discount rate.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/non-farm-may2025/";
+          
+        },
+      },{id: "post-ada-employment-report-points-to-strongly-weakening-labour-market",
         
           title: "ADA Employment Report points to strongly weakening Labour market",
         
