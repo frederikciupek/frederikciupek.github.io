@@ -103,12 +103,6 @@ But right now in the current market we find something interesting: dealers' net 
 <a href="https://www.cboe.com/insights/posts/spx-0-dte-options-jump-to-61-share-on-retail-resurgence/">Data shows </a> that 0DTE options represented over 61% of total SPX volume in May—a record high and a 9-point rise from April. Retail participation fueled this growth: after a dip in April, 0DTE trading by retail investors climbed to 54% of SPX 0DTE volume, up from 47% the previous month.
 
 That means that they are net long a positive gamma position. The table below shows the exposure for all long/short call/put combinations. All long positions have positive $Γ$, i.e. positive **convexity** while the shorts have negative convexity.
-| Position       | Δ-Exposure | Γ-Exposure |
-| -------------- | ---------- | ---------- |
-| **Long Call**  | Positive   | Positive   |
-| **Long Put**   | Negative   | Positive   |
-| **Short Call** | Negative   | Negative   |
-| **Short Put**  | Positive   | Negative   |
 
 **Positive gamma positions** (e.g. long straddles or clients buying gamma synthetically) mean that as the underlying moves up or down, the option’s delta moves in the direction of the move. Since we want to delta-hedge these position we need to trade **against** the Δ change shown by the Γ:
 - On a rally, the net delta drifts more positive, so you sell stock to flatten out.
