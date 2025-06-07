@@ -70,30 +70,54 @@ How does vanna impact calls and puts?
 "> delta-hedging.</a>  As implied volatility drops, the option price falls. With the option price falling the option’s delta also falls, so hedgers must buy back the underlying—creating **buying pressure**.
 - **Puts**: Vanna is negative. Long put holders are long the underlying to hedge. As vol drops, the delta approaches zero, so hedgers must sell—creating **selling pressure**.
 
-But here’s the twist: most dealers are short puts, because clients seek downside protection. So, the **signs flip**.
+But here’s the twist: most dealers are short puts, because clients seek downside protection. So, the **signs flip** and they are mostly long vanna. 
 
 - Dealers short puts = short the underlying for delta-neutrality = positive vanna (As vol drops, the delta increases, pushing it up from negative to 0)
 
-So, as implied volatility drops, the delta of those short puts shrinks → **dealers cover their shorts** → **buying pressure on equities**.
+When implied volatility increases their deltas are rising and they must short more futures to hedge. This puts downward pressure on stock prices – inversely when implied volatility falls, equities rise
 
-This is what’s referred to as the **“vanna tailwind.”**. Especially into the weekends traders do not want want to carry risk since the market is closed and they cant hedge during that time. This leads to a recurring bid under markets as dealers buy to hedge their net short put exposure.
+So summarizing, as implied volatility drops, the delta of those short puts shrinks → **dealers cover their shorts** → **buying pressure on equities**.
+
+This is what’s referred to as the **“vanna tailwind.”**. Especially into the weekends traders do not want want to carry risk since the market is closed and they cant hedge during that time. This leads to a recurring bid under markets as dealers buy to hedge their net short put exposure. This is pushing equities higher worse fundamentals. 
+
+ <a href="https://systematicindividualinvestor.com/2020/11/05/how-to-vanna/">There are numerous</a> examples of vanna tailwinds in recent time. For example, on the day after the 2020 U.S. election, stocks ripped higher not because the outcome suddenly looked rosy, but because an extreme “protection‐buying” feedback loop unwound: in the run-up, portfolio managers had bought vast quantities of near-dated S&P 500 puts, forcing dealers to sell futures and spike the VIX; once even a slight thaw in fear arrived (be it softer put demand, an improving outlook, or fading volatility‐short positioning), dealers—long Vanna and sitting on huge short-gamma books—saw their deltas rise as implied volatility fell and were compelled to buy futures to hedge, collapsing volatility and propelling stocks upward. And so, despite an outcome that was less than desirable from the market’s perspective, stocks roared higher as market makers scrambled to buy back hedges and more & more traders jumped onto the train, igniting a post-election market rally.
+
+
+
+
 
 #### Gamma and Mean-Reversion
 
-This vanna effect doesn’t act alone. Dealers are typically **short gamma**, particularly from selling puts as fat-tail insurance to their clients. Gamma ($Γ$) captures how delta shifts as the underlying price changes:
+This vanna effect doesn’t act alone. 
+We just talked about the fact that dealers are typically **short gamma**, particularly from selling puts as fat-tail insurance to their clients. Gamma ($Γ$) captures how delta shifts as the underlying price changes:
 $$
 \text{Γ} = \frac{\partial Δ}{\partial S}
 $$
+But right now in the current market we find something interesting: dealers' net gamma position are positive. Retail and Systematic strategies have <a href="https://www.cboe.com/insights/posts/spx-0-dte-options-jump-to-61-share-on-retail-resurgence/">introduced a surge in so called "zero days to expiry" options (0DTE)</a>. often packaged in at-the-money straddles/strangles. Dealers take the opposite side of these and end up long very high gamma options. Because the options are ATM (i.e. Forward = Spot, $F=S$) the gamma is nearly at its maximum for these 0DTE options. Holding many of these 0DTE it is not surprising that if we net every expiry and strike together the street's book is apparently carrying positive gamma.
 
-Because dealers are mostly short the options to clients that want downside protection their trades have negative convexity. That means that they are short a positive gamma position. 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
+        {% include figure.liquid loading="eager" path="/assets/img/blogs/2025-06-07/gamma.png" title="Gamma versus Strike" class="img-fluid rounded z-depth-1" %}
+</div>
+<a href="https://www.cboe.com/insights/posts/spx-0-dte-options-jump-to-61-share-on-retail-resurgence/">Data shows </a> that 0DTE options represented over 61% of total SPX volume in May—a record high and a 9-point rise from April. Retail participation fueled this growth: after a dip in April, 0DTE trading by retail investors climbed to 54% of SPX 0DTE volume, up from 47% the previous month.
 
-**Positive gamma positions** (e.g. long straddles or clients buying gamma synthetically) mean that as the underlying moves up or down, the option’s delta moves in the direction of the move:
-- If the stock pops, you become more long the stock.
-- If it drops, you become more short the stock
+That means that they are net long a positive gamma position. The table below shows the exposure for all long/short call/put combinations. All long positions have positive $Γ$, i.e. positive **convexity** while the shorts have negative convexity.
+| Position       | Δ-Exposure | Γ-Exposure |
+| -------------- | ---------- | ---------- |
+| **Long Call**  | Positive   | Positive   |
+| **Long Put**   | Negative   | Positive   |
+| **Short Call** | Negative   | Negative   |
+| **Short Put**  | Positive   | Negative   |
 
-This positive gamma risk is carried by dealers who, to remain delta neutral, must dynamically delta hedge their positioning. Let us take the example of a short put option again:
+**Positive gamma positions** (e.g. long straddles or clients buying gamma synthetically) mean that as the underlying moves up or down, the option’s delta moves in the direction of the move. Since we want to delta-hedge these position we need to trade **against** the Δ change shown by the Γ:
+- On a rally, the net delta drifts more positive, so you sell stock to flatten out.
 
-They are short the contract, have a positive delta exposure which they need to neutralize by selling the underlying (delta hedging) and are short gamma. When the market rallies, the dealer’s short gamma book need to sell the underlying stock to bring their delta back to zero. When the market falls, they do the opposite: buy stock to offset the new short-delta.
+- On a drop, the net delta drifts more negative, so you buy stock to flatten out.
+
+To remain delta neutral the dealer must dynamically delta hedge their positioning. Let us take the example of a long call option again:
+
+Dealers are long these 0DTE the contracts, have a positive delta exposure which they need to neutralize by selling the underlying (delta hedging) and are net long gamma (positive convexity). When the market rallies, the dealer’s positive gamma book need to sell the underlying stock to bring their net delta exposure back to zero. When the market falls, they do the opposite: buy stock to offset the new short-delta.
 
 Because the dealer is selling into strength and buying into weakness, these hedging flows _dampen price moves_ through counter cyclical trading. These dealers injects liquidity not the market that suppress realized volatility of the index (often called ‘mean reverting behavior’) which in turn reduces implied volatility since there are less expected movements in the market, in turn lowering the VIX.
 A lower VIX brings us back to the vanna tailwinds mentioned above depressing option values through Vega in a positive feedback loop depressing the VIX even further. 
