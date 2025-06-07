@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-may-2025-non-farm-payrolls-stronger-hiring-boosts-cash-flow-expectations-despite-lower-rate-cut-odds",
+            },{id: "post-vanna-tailwind-and-the-gamma-volatility-feedback-loop",
+        
+          title: "Vanna Tailwind and the Gamma-Volatility Feedback Loop",
+        
+        description: "How falling implied volatility creates structural equity buying demand through option market dynamics",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/vanna-tailwinds/";
+          
+        },
+      },{id: "post-may-2025-non-farm-payrolls-stronger-hiring-boosts-cash-flow-expectations-despite-lower-rate-cut-odds",
         
           title: "May 2025 Non‐Farm Payrolls - Stronger Hiring Boosts Cash Flow Expectations Despite Lower...",
         
