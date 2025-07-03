@@ -91,6 +91,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/non-farm-may2025/";
           
         },
+      },{id: "post-labor-market-seems-strong-but-with-some-caveats",
+        
+          title: "Labor market seems strong - but with some caveats",
+        
+        description: "The labor market appears surprisingly resilient with 137k jobs added - beating expectations. But not all is as good as it seems",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/labor-market-june2025/";
+          
+        },
       },{id: "post-ada-employment-report-points-to-strongly-weakening-labour-market",
         
           title: "ADA Employment Report points to strongly weakening Labour market",
