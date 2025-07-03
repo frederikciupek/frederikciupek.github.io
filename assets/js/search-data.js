@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-interest-on-reserve-balances-iorb-what-do-they-do-and-what-that-means-for-us",
+            },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/2025-07-03-labor-market-june2025/";
+          
+        },
+      },{id: "post-interest-on-reserve-balances-iorb-what-do-they-do-and-what-that-means-for-us",
         
           title: "Interest on Reserve Balances (IORB) - what do they do and what that...",
         
@@ -89,17 +100,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/non-farm-may2025/";
-          
-        },
-      },{id: "post-labor-market-seems-strong-but-with-some-caveats",
-        
-          title: "Labor market seems strong - but with some caveats",
-        
-        description: "The labor market appears surprisingly resilient with 137k jobs added - beating expectations. But not all is as good as it seems",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/labor-market-june2025/";
           
         },
       },{id: "post-ada-employment-report-points-to-strongly-weakening-labour-market",
