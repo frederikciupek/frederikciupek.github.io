@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Labor market seems strong - but with some caveats
+title: June 2025 Nonfarm Payroll: Labor market seems strong - but with some caveats
 date: 2025-06-04 15:09:00
 description: The labor market appears surprisingly resilient with 137k jobs added - beating expectations. But not all is as good as it seems
 tags: [labour market, interest rates]
