@@ -73,7 +73,7 @@ ninja.data = [{
         
           title: "How Wall Street Hedges Backfire as Volatility in Rates Market Sinks (a technical...",
         
-        description: "In this post I am diving deeper into a phenomenon reported on by Justina Lee of Bloomberg who highlighed how hedge funds and banks are losing money due to sinking rates volatility.",
+        description: "In this post I am diving deeper into a phenomenon reported on by Justina Lee of Bloomberg who highlighted how hedge funds and banks are losing money due to sinking rates volatility.",
         section: "Posts",
         handler: () => {
           
