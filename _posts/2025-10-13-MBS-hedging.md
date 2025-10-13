@@ -108,6 +108,6 @@ Because of the flat-to-positive carry potential many hedge funds and banks use t
 The article mentioned that long-end implied vols fell a lot. Due to less macro fear expectations of Fed cuts and the Trump always chickens out (TACO) movement, investors unwound hedges which pushed the implied volatility lower. When the volatility falls outright the price of the option falls outright, overwhelming the rolldown (carry) tailwind of theta.
 
 ## Concluding...
-Coming back to genisis of this post - the Volamagedon event with the new found knowledge we have of swaptions we can say the following:
+Coming back to genesis of this post - the Volamagedon event with the new-found knowledge we have of swaptions we can say the following:
 
 The losses came from a synchronized implied-vol compression in the long end, plus vega supply from hedge unwinds. That overwhelmed positive rolldown and left long-dated vega books with negative carry.
