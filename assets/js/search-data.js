@@ -69,6 +69,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/2025-07-03-labor-market-june2025/";
           
         },
+      },{id: "post-how-wall-street-hedges-backfire-as-volatility-in-rates-market-sinks-a-technical-breakdown",
+        
+          title: "How Wall Street Hedges Backfire as Volatility in Rates Market Sinks (a technical...",
+        
+        description: "In this post I am diving deeper into a phenomenon reported on by Justina Lee of Bloomberg who highlighed how hedge funds and banks are losing money due to sinking rates volatility.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/MBS-hedging/";
+          
+        },
       },{id: "post-interest-on-reserve-balances-iorb-what-do-they-do-and-what-that-means-for-us",
         
           title: "Interest on Reserve Balances (IORB) - what do they do and what that...",
