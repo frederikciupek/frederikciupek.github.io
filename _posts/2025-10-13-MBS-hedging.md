@@ -13,10 +13,11 @@ featured: true
 
 We dove deep into stock option technicals & greeks a few months back by examining the positive feedback loop muting volatility in the broader stock market and how hedging is affecting broader indexes in <a href="https://frederikciupek.github.io/blog/2025/vanna-tailwinds/">this article</a>.
 
-Now I want to examine a different option phenomenon that is impacted interest rate markets in the past weeks. Most people are more familiar with stock options like simple calls and puts. But another big option market is the interest rate option market. Basically, an option that allows the owner the **option** to either sell or buy an interest rate product. The underlying here are interest rate related securities such as United State Treasury Bonds or Bills at different maturities. 
+Now I want to examine a different option phenomenon that is impacted interest rate markets in the past weeks. Most people are more familiar with stock options like simple calls and puts. But another big option market is the interest rate option market. Basically, an option that allows the owner the **option** to either sell or buy an interest rate product. The underlying here are interest rate related products such as swaps or simply United State Treasury Bonds or Bills at different maturities
 
-In particular today we will be covering a derivative products of interest rates called swap-options. As the name suggests its an option on a vanilla interest rate swap. In a recent article Justina Lee - a accomplished Bloomberg Quant Finance focused reporter whose Newsletter I follow religiously - reports on 'Volamagedon'. Referring to the current decline of long end implied volatilities in the rates market, she in particular reports on 10Y20Y swaptions decline in implied volatility and with that in price which lead to large loses in previously profitable long-vega hedges.
-With a selloff of vega, due to implied volatility collapsing, the selloff of long dated vega and its supply sharply increases and pushes implied volatilities even lower leading to a negative feedback loop.
+In particular today we will be covering a derivative products of interest rates called **swap-options**. As the name suggests its an option on a vanilla interest rate swap. In a recent article Justina Lee - a accomplished Bloomberg Quant Finance focused reporter whose Newsletter I follow religiously - <a href ='https://www.bloomberg.com/news/articles/2025-09-23/rates-volmaggedon-hits-wall-street-s-tail-hedges?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc2MDAxODU5NCwiZXhwIjoxNzYwNjIzMzk0LCJhcnRpY2xlSWQiOiJUMlU3NldHUFFROFAwMCIsImJjb25uZWN0SWQiOiIwOEFBNDE2OEJDODk0MzgzOEIzQ0IxNjBFMEY5Qzg3MyJ9.CvJcorLoIwK9NV2E1Op5_tzwsqz6V_dnVjyzXBGCI8s'> reports on 'Volamagedon'</a>. Referring to the current decline of long end implied volatilities in the rates market, she in particular reports on 10Y20Y swaptions decline in implied volatility, and with that in price, which lead to large loses in previously profitable long-vega hedges.
+
+With losses mounting in these long-vega hedges and because implied volatility is collapsing, the selloff of long dated vega continues and its supply sharply increases. This pushes implied volatilities even lower leading to a **1negative feedback loop** similar to a gamma volatility feedback.
 
 ## The 10y20y Surface Move: What the Chart Actually Says
 
@@ -29,7 +30,7 @@ class = "row">
         {% include figure.liquid loading="eager" path="/assets/img/blogs/2025-10-13/-1x-1.png" title="10Y20Y Swaption" class="img-fluid rounded z-depth-1" %}
 </div>
 
-## What Is a Swaption (Desk Terms, Not Textbook)
+## What Is a Swaption 
 
 Let me recap what a **swaption** is. A swaption gives the holder (long) of the swaption the option to enter into a swap contract at a predetermined point in time that. A 10Y20Y Swaption refers to a 10-year-into-20-year swaption: Option to enter into a swap expires in to 10Y and the underlying is a 20Y swap.
 
